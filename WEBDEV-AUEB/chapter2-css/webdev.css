@@ -1,0 +1,63 @@
+
+
+body{
+    background-image: url(../adam.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.webdev-img{
+
+    width: 100%; 
+    height: 10%;
+}
+
+
+.webdev-header{
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px rgb(9, 9, 9) ;
+    text-align: center;
+   
+
+    color: #762124;
+
+}
+.webdev-text{
+
+    font-family: font-family: 'Quicksand', sans-serif;
+    fontweight: 500px;
+    font-size: 1.1rem;
+    color: white;       
+}
+
+table, th, td{
+
+   border: 1px solid black;
+
+}
+table{
+    border-collapse: collapse;
+    width: 500px;
+    
+}
+th{
+    color: blueviolet;
+}
+td{
+    color:white; 
+}
+.fa-brands fa-facebook{
+
+    color:blue;
+    font-size: 30px;
+}
+
+.apply > a:hover{
+    color: red;
+
+}
+.apply > a:active{ 
+    color: green;
+}
